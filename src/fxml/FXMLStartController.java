@@ -23,9 +23,7 @@ public class FXMLStartController implements Initializable {
     private Button btnClear;
     @FXML
     private Button btnDone;
-    @FXML
-    private Canvas drawingCanvas;
-    
+   
     //@FXML
     //private void handleButtonAction(ActionEvent event) {
      //   System.out.println("You clicked me!");
