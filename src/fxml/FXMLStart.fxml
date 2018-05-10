@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="505.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLDocumentController">
+    <children>
+        <Button fx:id="btnDone" layoutX="432.0" layoutY="253.0" onAction="#btnDoneOnClick" text="&gt;&gt;" />
+        <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="80.0" layoutY="14.0" minHeight="16" minWidth="69" text="Sinhala Character Recognition Neural Network">
+         <font>
+            <Font name="KacstBook" size="17.0" />
+         </font></Label>
+      <Button fx:id="btnClear" layoutX="28.0" layoutY="466.0" onAction="#btnClearOnClick" text="Clear" />
+      <Canvas fx:id="drawingCanvas" height="400.0" layoutX="14.0" layoutY="44.0" width="400.0" />
+    </children>
+</AnchorPane>

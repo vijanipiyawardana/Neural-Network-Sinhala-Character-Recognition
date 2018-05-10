@@ -19,7 +19,7 @@ public class LetterNNMain extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/fxml/FXMLStartLetterNN.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/FXMLStart.fxml"));
         
         Scene scene = new Scene(root);
         

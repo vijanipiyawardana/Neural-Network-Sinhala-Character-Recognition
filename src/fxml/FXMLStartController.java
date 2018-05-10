@@ -11,27 +11,26 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
+import javafx.scene.canvas.Canvas;
 
 /**
  *
  * @author vijani
  */
-public class FXMLFXMLStartLetterNNController implements Initializable {
+public class FXMLStartController implements Initializable {
     
     @FXML
-    private Label label;
+    private Button btnClear;
     @FXML
-    private Button button;
+    private Button btnDone;
     @FXML
-    private TextField txt1;
+    private Canvas drawingCanvas;
     
-    @FXML
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked me!");
-        txt1.setText("Hello World!");
-    }
+    //@FXML
+    //private void handleButtonAction(ActionEvent event) {
+     //   System.out.println("You clicked me!");
+      //  txt1.setText("Hello World!");
+   // }
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
